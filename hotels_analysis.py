@@ -275,9 +275,10 @@ calculate_score(hotels)
 hotels_sorted = sorted(hotels, key=lambda x: x['score'], reverse=True)
 
 # Display the results
-for hotel in hotels_sorted[:5]:  # Display the top 2 hotels
-    print("Ranking of Hotels:")
-    print(f"Address: {hotel['address']}, Score: {hotel['score']:.2f}")
+print("Ranking of Hotels:")
+for rank, hotel in enumerate(hotels_sorted[:5], start=1):  # start=1 commence le comptage à 1
+    print(f"{rank}: Address: {hotel['address']}, Score: {hotel['score']:.2f}")
+    
     
 # Initialisation de la carte
 m = folium.Map(location=[48.8566, 2.3522], zoom_start=12)

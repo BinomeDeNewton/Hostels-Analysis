@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_17e399e5bdfb4f4229667d94d54204b7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_17e399e5bdfb4f4229667d94d54204b7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_17e399e5bdfb4f4229667d94d54204b7 = L.map(
+                "map_17e399e5bdfb4f4229667d94d54204b7",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4f9f2617fff430e9dbd7b5dbd7369955 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4f9f2617fff430e9dbd7b5dbd7369955.addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var marker_957d91f94224d72f49c215b6cab61778 = L.marker(
+                [48.8758273, 2.2896953],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_7da702fadef6cc022d720dcc8787d3d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_957d91f94224d72f49c215b6cab61778.setIcon(icon_7da702fadef6cc022d720dcc8787d3d5);
+        
+    
+        var popup_0a078b4944389f5e7cd06cb39160d280 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e920f31118942d8a99b3042041f19320 = $(`<div id="html_e920f31118942d8a99b3042041f19320" style="width: 100.0%; height: 100.0%;">34 avenue de la Grande Armée, Paris, 75017, France, Score: 1310.84</div>`)[0];
+                popup_0a078b4944389f5e7cd06cb39160d280.setContent(html_e920f31118942d8a99b3042041f19320);
+            
+        
+
+        marker_957d91f94224d72f49c215b6cab61778.bindPopup(popup_0a078b4944389f5e7cd06cb39160d280)
+        ;
+
+        
+    
+    
+            var marker_8c9f8c70516825f1d407c2edbddf3bc3 = L.marker(
+                [48.8652445, 2.285664],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_39d0ba4376cc25cf78f461c9fddc1679 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c9f8c70516825f1d407c2edbddf3bc3.setIcon(icon_39d0ba4376cc25cf78f461c9fddc1679);
+        
+    
+        var popup_49ddef148619da6693b39e0d63624c7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b1a6e968332837991773af6bcb3c3cb = $(`<div id="html_5b1a6e968332837991773af6bcb3c3cb" style="width: 100.0%; height: 100.0%;">68 Rue De Longchamp, 75016 Paris, France, Score: 1270.06</div>`)[0];
+                popup_49ddef148619da6693b39e0d63624c7b.setContent(html_5b1a6e968332837991773af6bcb3c3cb);
+            
+        
+
+        marker_8c9f8c70516825f1d407c2edbddf3bc3.bindPopup(popup_49ddef148619da6693b39e0d63624c7b)
+        ;
+
+        
+    
+    
+            var marker_ee1ba32ac29cefe0a4cfdc01e63671b6 = L.marker(
+                [48.8742177, 2.2811073],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_5322d405e1d337a3e65cb00eeec4acd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ee1ba32ac29cefe0a4cfdc01e63671b6.setIcon(icon_5322d405e1d337a3e65cb00eeec4acd1);
+        
+    
+        var popup_e7d132a98c3919d42fa5c7a01bad9b26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fd46d87e7dbfa38bc858d4ab3f4b593 = $(`<div id="html_7fd46d87e7dbfa38bc858d4ab3f4b593" style="width: 100.0%; height: 100.0%;">10 rue Marbeau, 75016 Paris, France, Score: 1346.72</div>`)[0];
+                popup_e7d132a98c3919d42fa5c7a01bad9b26.setContent(html_7fd46d87e7dbfa38bc858d4ab3f4b593);
+            
+        
+
+        marker_ee1ba32ac29cefe0a4cfdc01e63671b6.bindPopup(popup_e7d132a98c3919d42fa5c7a01bad9b26)
+        ;
+
+        
+    
+    
+            var marker_042edce7ff5a7d1d5eff3e662916ddb9 = L.marker(
+                [48.8768039, 2.3336297],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_0c205c3a3bd8397cc6b9e381f684d94d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_042edce7ff5a7d1d5eff3e662916ddb9.setIcon(icon_0c205c3a3bd8397cc6b9e381f684d94d);
+        
+    
+        var popup_d189e8f394f7aa2d558010b15b7a5a34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fb3cf6c99cb628e752f4d4ee2e54051 = $(`<div id="html_6fb3cf6c99cb628e752f4d4ee2e54051" style="width: 100.0%; height: 100.0%;">63 Rue Saint-Lazare, 75009 Paris, France, Score: 1388.96</div>`)[0];
+                popup_d189e8f394f7aa2d558010b15b7a5a34.setContent(html_6fb3cf6c99cb628e752f4d4ee2e54051);
+            
+        
+
+        marker_042edce7ff5a7d1d5eff3e662916ddb9.bindPopup(popup_d189e8f394f7aa2d558010b15b7a5a34)
+        ;
+
+        
+    
+    
+            var marker_857ca949ba85089950f52414a22459a8 = L.marker(
+                [48.8751534, 2.3361223],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_b076fe07a2c76efa6e55fb7b029a9fe2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_857ca949ba85089950f52414a22459a8.setIcon(icon_b076fe07a2c76efa6e55fb7b029a9fe2);
+        
+    
+        var popup_9a74a7e788e80979c0e11a6dffc6a654 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_368195a0ced1d9615e7395b1885bbc2f = $(`<div id="html_368195a0ced1d9615e7395b1885bbc2f" style="width: 100.0%; height: 100.0%;">45 rue de la Victoire, 75009 Paris, France, Score: 1344.89</div>`)[0];
+                popup_9a74a7e788e80979c0e11a6dffc6a654.setContent(html_368195a0ced1d9615e7395b1885bbc2f);
+            
+        
+
+        marker_857ca949ba85089950f52414a22459a8.bindPopup(popup_9a74a7e788e80979c0e11a6dffc6a654)
+        ;
+
+        
+    
+    
+            var marker_590380217a76cee2138cea572e9e435b = L.marker(
+                [48.8644027, 2.3363001],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_dc0bf208e8d3b3b5ae8072f2fffd93af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_590380217a76cee2138cea572e9e435b.setIcon(icon_dc0bf208e8d3b3b5ae8072f2fffd93af);
+        
+    
+        var popup_8302113671cabeb3f72b800edccf89c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de1901297c406bda7abe019176c39a0f = $(`<div id="html_de1901297c406bda7abe019176c39a0f" style="width: 100.0%; height: 100.0%;">12 rue de Richelieu, 75001 Paris, France, Score: 1241.66</div>`)[0];
+                popup_8302113671cabeb3f72b800edccf89c1.setContent(html_de1901297c406bda7abe019176c39a0f);
+            
+        
+
+        marker_590380217a76cee2138cea572e9e435b.bindPopup(popup_8302113671cabeb3f72b800edccf89c1)
+        ;
+
+        
+    
+    
+            var marker_770b459994efbe0cb5a8bbbe344d3c34 = L.marker(
+                [48.8849482, 2.3374742],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_a68bfdfdc9647c4e5419b4d4be98488e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_770b459994efbe0cb5a8bbbe344d3c34.setIcon(icon_a68bfdfdc9647c4e5419b4d4be98488e);
+        
+    
+        var popup_727dab9939f0f009ed4597d2d89afe88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ca1e37321602d9ae94dee786698afc5 = $(`<div id="html_4ca1e37321602d9ae94dee786698afc5" style="width: 100.0%; height: 100.0%;">11 rue Ravignan, 75018 Paris, France, Score: 1281.81</div>`)[0];
+                popup_727dab9939f0f009ed4597d2d89afe88.setContent(html_4ca1e37321602d9ae94dee786698afc5);
+            
+        
+
+        marker_770b459994efbe0cb5a8bbbe344d3c34.bindPopup(popup_727dab9939f0f009ed4597d2d89afe88)
+        ;
+
+        
+    
+    
+            var marker_55ca2340648fe375b8e9475c6542e4dc = L.marker(
+                [48.8487506, 2.3476472],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_8975694c44377af3c4a028ac4e7e8698 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_55ca2340648fe375b8e9475c6542e4dc.setIcon(icon_8975694c44377af3c4a028ac4e7e8698);
+        
+    
+        var popup_48f431ef2ba08bdad161d3da757dafa6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c66d9eda7afc761b16b6f9d4aff0379 = $(`<div id="html_7c66d9eda7afc761b16b6f9d4aff0379" style="width: 100.0%; height: 100.0%;">35, Rue Des Ecoles, 75005 Paris, France, Score: 1167.55</div>`)[0];
+                popup_48f431ef2ba08bdad161d3da757dafa6.setContent(html_7c66d9eda7afc761b16b6f9d4aff0379);
+            
+        
+
+        marker_55ca2340648fe375b8e9475c6542e4dc.bindPopup(popup_48f431ef2ba08bdad161d3da757dafa6)
+        ;
+
+        
+    
+    
+            var marker_8ec51baf27dad9393a408889eea2b2d4 = L.marker(
+                [48.8462051, 2.3409533],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_f68f9b9200e1a9e176fd7a98eb62ae5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ec51baf27dad9393a408889eea2b2d4.setIcon(icon_f68f9b9200e1a9e176fd7a98eb62ae5a);
+        
+    
+        var popup_65a6977d863d1f2cf83fb3857ab8c1c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87f934810c1bb10d9659bf04ba5f4e1b = $(`<div id="html_87f934810c1bb10d9659bf04ba5f4e1b" style="width: 100.0%; height: 100.0%;">6 Rue Gay Lussac, 75005 Paris, France, Score: 1191.53</div>`)[0];
+                popup_65a6977d863d1f2cf83fb3857ab8c1c2.setContent(html_87f934810c1bb10d9659bf04ba5f4e1b);
+            
+        
+
+        marker_8ec51baf27dad9393a408889eea2b2d4.bindPopup(popup_65a6977d863d1f2cf83fb3857ab8c1c2)
+        ;
+
+        
+    
+    
+            var marker_ee22d4ecb4dcd93b0e43842996c46a8e = L.marker(
+                [48.8519294, 2.346272],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_8aaee3569b3b0ab3782a7e4c74663b7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ee22d4ecb4dcd93b0e43842996c46a8e.setIcon(icon_8aaee3569b3b0ab3782a7e4c74663b7f);
+        
+    
+        var popup_f246205cb829d9170e46eefdeeb70021 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d7419cbf20782a9476d154c9a35f373 = $(`<div id="html_6d7419cbf20782a9476d154c9a35f373" style="width: 100.0%; height: 100.0%;">9 Rue Saint Jacques, 75005 Paris, France, Score: 1278.41</div>`)[0];
+                popup_f246205cb829d9170e46eefdeeb70021.setContent(html_6d7419cbf20782a9476d154c9a35f373);
+            
+        
+
+        marker_ee22d4ecb4dcd93b0e43842996c46a8e.bindPopup(popup_f246205cb829d9170e46eefdeeb70021)
+        ;
+
+        
+    
+    
+            var marker_98a0f9a5ddf65b14a8812d207c170547 = L.marker(
+                [48.8532071, 2.3386499],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_9d14e6496f4e146da191febab4cae155 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_98a0f9a5ddf65b14a8812d207c170547.setIcon(icon_9d14e6496f4e146da191febab4cae155);
+        
+    
+        var popup_74400ed811b5b5b299d6f47582b453cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a85e51dd9e0581f6f7930b0fa66f1d29 = $(`<div id="html_a85e51dd9e0581f6f7930b0fa66f1d29" style="width: 100.0%; height: 100.0%;">9 Rue de l'Ancienne Comédie, 75006 Paris, France, Score: 1291.65</div>`)[0];
+                popup_74400ed811b5b5b299d6f47582b453cb.setContent(html_a85e51dd9e0581f6f7930b0fa66f1d29);
+            
+        
+
+        marker_98a0f9a5ddf65b14a8812d207c170547.bindPopup(popup_74400ed811b5b5b299d6f47582b453cb)
+        ;
+
+        
+    
+    
+            var marker_0499efa8736dde55b20adecc718f9d61 = L.marker(
+                [48.8798961, 2.2986858],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_53a4ea9cb8efbe908f2f53f93a5ba4cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0499efa8736dde55b20adecc718f9d61.setIcon(icon_53a4ea9cb8efbe908f2f53f93a5ba4cc);
+        
+    
+        var popup_f54ddc2b66e5e9203be85719d1e2300d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa2d6332603295c9f355ccdd782bd3ff = $(`<div id="html_fa2d6332603295c9f355ccdd782bd3ff" style="width: 100.0%; height: 100.0%;">38 Rue Poncelet, Paris, 75017, France, Score: 1186.83</div>`)[0];
+                popup_f54ddc2b66e5e9203be85719d1e2300d.setContent(html_fa2d6332603295c9f355ccdd782bd3ff);
+            
+        
+
+        marker_0499efa8736dde55b20adecc718f9d61.bindPopup(popup_f54ddc2b66e5e9203be85719d1e2300d)
+        ;
+
+        
+    
+    
+            var marker_5cf9b0468f25223567bc509dc04c16df = L.marker(
+                [48.8743155, 2.3320625],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_2a39367c3e43c63ee313bc7b7ac1c3e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5cf9b0468f25223567bc509dc04c16df.setIcon(icon_2a39367c3e43c63ee313bc7b7ac1c3e3);
+        
+    
+        var popup_423f7e1badf74db52acff6a2bd3f702f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a730b845a0b0b80762d913cd0aad41b9 = $(`<div id="html_a730b845a0b0b80762d913cd0aad41b9" style="width: 100.0%; height: 100.0%;">74 rue de Provence, Paris, 75009, France, Score: 1164.38</div>`)[0];
+                popup_423f7e1badf74db52acff6a2bd3f702f.setContent(html_a730b845a0b0b80762d913cd0aad41b9);
+            
+        
+
+        marker_5cf9b0468f25223567bc509dc04c16df.bindPopup(popup_423f7e1badf74db52acff6a2bd3f702f)
+        ;
+
+        
+    
+    
+            var poly_line_cdf5e3b6324df2aac79886962ee5ee1a = L.polyline(
+                [[48.861017, 2.335848], [48.8644027, 2.3363001]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_b85e2484f17623ea77ab7e26541c73e8 = L.polyline(
+                [[48.861017, 2.335848], [48.8532071, 2.3386499]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_40ea280552486bcee8eb00b06f25084b = L.polyline(
+                [[48.861017, 2.335848], [48.8519294, 2.346272]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var marker_a80821ab5aba0c214aa875cdcc034ce7 = L.marker(
+                [48.861017, 2.335848],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_ac5192fd0a4c6d0035ecee557a62994c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a80821ab5aba0c214aa875cdcc034ce7.setIcon(icon_ac5192fd0a4c6d0035ecee557a62994c);
+        
+    
+        var popup_c69fc84cce802c0cdcd88b35b1ee7cfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29807f54d555a843c44be1e41c45bbfb = $(`<div id="html_29807f54d555a843c44be1e41c45bbfb" style="width: 100.0%; height: 100.0%;">Louvre Pyramid</div>`)[0];
+                popup_c69fc84cce802c0cdcd88b35b1ee7cfa.setContent(html_29807f54d555a843c44be1e41c45bbfb);
+            
+        
+
+        marker_a80821ab5aba0c214aa875cdcc034ce7.bindPopup(popup_c69fc84cce802c0cdcd88b35b1ee7cfa)
+        ;
+
+        
+    
+    
+            var poly_line_98159543852b9aef135106c7a3c037db = L.polyline(
+                [[48.861017, 2.335848], [48.8644027, 2.3363001]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_159a93c70e06b34387814ea17f437889 = L.polyline(
+                [[48.861017, 2.335848], [48.8532071, 2.3386499]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_e53d6c5cdc8c17585697434d6d60f892 = L.polyline(
+                [[48.861017, 2.335848], [48.8519294, 2.346272]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_58db1f01ee0b88d7b5c215fda54c4b78 = L.polyline(
+                [[48.886705, 2.343104], [48.8849482, 2.3374742]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_0e70151b7a3d644d78ac8fd183b079df = L.polyline(
+                [[48.886705, 2.343104], [48.8768039, 2.3336297]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_20b510eeba828fe625c82ab22762d982 = L.polyline(
+                [[48.886705, 2.343104], [48.8751534, 2.3361223]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var marker_ab55bfac5d088720782e458a5f2758bd = L.marker(
+                [48.886705, 2.343104],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_f3d5fd972c1d9c8eb6e831b94f9e1f8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ab55bfac5d088720782e458a5f2758bd.setIcon(icon_f3d5fd972c1d9c8eb6e831b94f9e1f8c);
+        
+    
+        var popup_7e51d5bff0b8c5413cd5602529f5142c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6581f38ce0b2de16ded44a8c45947d2 = $(`<div id="html_b6581f38ce0b2de16ded44a8c45947d2" style="width: 100.0%; height: 100.0%;">Sacré Coeur</div>`)[0];
+                popup_7e51d5bff0b8c5413cd5602529f5142c.setContent(html_b6581f38ce0b2de16ded44a8c45947d2);
+            
+        
+
+        marker_ab55bfac5d088720782e458a5f2758bd.bindPopup(popup_7e51d5bff0b8c5413cd5602529f5142c)
+        ;
+
+        
+    
+    
+            var poly_line_fce28485f6e0f4026a6a8f26377d9ff7 = L.polyline(
+                [[48.886705, 2.343104], [48.8849482, 2.3374742]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_d4a3255e3b9f515644f672cc61d73285 = L.polyline(
+                [[48.886705, 2.343104], [48.8768039, 2.3336297]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_acad655f00766b2ac913ecebe905fdd3 = L.polyline(
+                [[48.886705, 2.343104], [48.8751534, 2.3361223]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_a08b4f51f64da92c834e864c0db6b46d = L.polyline(
+                [[48.873792, 2.295028], [48.8758273, 2.2896953]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_faaa1cbe51fea643cc2a5da5ab1f8c29 = L.polyline(
+                [[48.873792, 2.295028], [48.8798961, 2.2986858]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_a12573e2951a0e10b5bc42d0becbd972 = L.polyline(
+                [[48.873792, 2.295028], [48.8742177, 2.2811073]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var marker_a9f8a95fbe15f5a7415093cc25703207 = L.marker(
+                [48.873792, 2.295028],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_274621a05eba0fae72ac489c04a55c7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a9f8a95fbe15f5a7415093cc25703207.setIcon(icon_274621a05eba0fae72ac489c04a55c7a);
+        
+    
+        var popup_9eda11b32a4cc39d66da24d9e228f4f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5105b9a10495d4fd0492c6bfd950f8c = $(`<div id="html_d5105b9a10495d4fd0492c6bfd950f8c" style="width: 100.0%; height: 100.0%;">Arc de Triomphe</div>`)[0];
+                popup_9eda11b32a4cc39d66da24d9e228f4f0.setContent(html_d5105b9a10495d4fd0492c6bfd950f8c);
+            
+        
+
+        marker_a9f8a95fbe15f5a7415093cc25703207.bindPopup(popup_9eda11b32a4cc39d66da24d9e228f4f0)
+        ;
+
+        
+    
+    
+            var poly_line_7008887a3b28bbea6bb905db71a86105 = L.polyline(
+                [[48.873792, 2.295028], [48.8758273, 2.2896953]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_05b5d03d06c8cccf6446f83d972e88b1 = L.polyline(
+                [[48.873792, 2.295028], [48.8798961, 2.2986858]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_c06ec5013d9790835664abdbde7ca2df = L.polyline(
+                [[48.873792, 2.295028], [48.8742177, 2.2811073]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_d6d9610b48de468f743160b0e1c83b3e = L.polyline(
+                [[48.85837, 2.294481], [48.8652445, 2.285664]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_481a502021bb8714d660908f9375599a = L.polyline(
+                [[48.85837, 2.294481], [48.8758273, 2.2896953]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_970df1bcbc963e080a8af34f3bff5d67 = L.polyline(
+                [[48.85837, 2.294481], [48.8742177, 2.2811073]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var marker_ba7358f31ce301fe2a9ea10b86008abb = L.marker(
+                [48.85837, 2.294481],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_5fdc29ee9dfdd9072a6e2c0951fc17e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ba7358f31ce301fe2a9ea10b86008abb.setIcon(icon_5fdc29ee9dfdd9072a6e2c0951fc17e4);
+        
+    
+        var popup_0e30b3ac50c685bdcbbbe16a2d944775 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efd9c07e36784aa46528ab9016d26c42 = $(`<div id="html_efd9c07e36784aa46528ab9016d26c42" style="width: 100.0%; height: 100.0%;">Eiffel Tower</div>`)[0];
+                popup_0e30b3ac50c685bdcbbbe16a2d944775.setContent(html_efd9c07e36784aa46528ab9016d26c42);
+            
+        
+
+        marker_ba7358f31ce301fe2a9ea10b86008abb.bindPopup(popup_0e30b3ac50c685bdcbbbe16a2d944775)
+        ;
+
+        
+    
+    
+            var poly_line_57a6d994db9c2add9c0824b2da3f842a = L.polyline(
+                [[48.85837, 2.294481], [48.8652445, 2.285664]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_42a07766d5927f39d71c4a6fee25d53b = L.polyline(
+                [[48.85837, 2.294481], [48.8758273, 2.2896953]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_90703e8a97afdfc9f1925e9a643e15e4 = L.polyline(
+                [[48.85837, 2.294481], [48.8742177, 2.2811073]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_805f0d71e5a4b367d3f99e39a169452d = L.polyline(
+                [[48.871946, 2.331619], [48.8743155, 2.3320625]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_7f2e5f3786e1f0a8037d82c0fd98e500 = L.polyline(
+                [[48.871946, 2.331619], [48.8751534, 2.3361223]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_de2f233aa0e56338a3151538e5562694 = L.polyline(
+                [[48.871946, 2.331619], [48.8768039, 2.3336297]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var marker_1c1c559fa6978075cc2fe5ac664866d5 = L.marker(
+                [48.871946, 2.331619],
+                {}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var icon_9d629dc05a5b9563561889e6cd7126ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_1c1c559fa6978075cc2fe5ac664866d5.setIcon(icon_9d629dc05a5b9563561889e6cd7126ff);
+        
+    
+        var popup_a56cb556b50318720733009addaa6f36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a258172e02b41c674ea94bfeb4373491 = $(`<div id="html_a258172e02b41c674ea94bfeb4373491" style="width: 100.0%; height: 100.0%;">Opéra Garnier</div>`)[0];
+                popup_a56cb556b50318720733009addaa6f36.setContent(html_a258172e02b41c674ea94bfeb4373491);
+            
+        
+
+        marker_1c1c559fa6978075cc2fe5ac664866d5.bindPopup(popup_a56cb556b50318720733009addaa6f36)
+        ;
+
+        
+    
+    
+            var poly_line_a74724c952396b3691d97cbe607a4e04 = L.polyline(
+                [[48.871946, 2.331619], [48.8743155, 2.3320625]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_882b98081578578805634e99cf8e5f1f = L.polyline(
+                [[48.871946, 2.331619], [48.8751534, 2.3361223]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+    
+            var poly_line_39acce95b88c3220378969ef55dbcc1e = L.polyline(
+                [[48.871946, 2.331619], [48.8768039, 2.3336297]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_17e399e5bdfb4f4229667d94d54204b7);
+        
+</script>
+</html>
